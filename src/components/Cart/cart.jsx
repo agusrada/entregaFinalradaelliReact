@@ -23,20 +23,20 @@ const Cart = () => {
                                     <h3 className="mb-4">{item.id.name}</h3>
                                     <p>{item.id.description}</p>
                                     <p>Cantidad: {item.quantity}</p>
-                                    <p> <span>Precio unitario:</span> €{item.id.price}</p>
+                                    <p> <span>Precio: </span> ${item.id.price}</p>
                                 </div>
                                 <button onClick={() => removeItem(item.id)} className="ms-5 badge text-bg-danger"> X </button>
                             </div>
                         </div>
-                    )))  : <h3 className="text-center"> El carrito esta vacio </h3>
+                    )))  : <h3 className="text-center"> no hay productos </h3>
                 }
                 <div className="my-5 d-flex justify-content-center">   
                     {cart.length == 0 ?
                         <div>
-                            <button onClick={clear} className="btn btn-danger" disabled> Eliminar Carrito </button>
+                            <button onClick={clear} className="btn btn-danger" disabled> borrar todo </button>
                         </div>  :
                         <div>
-                            <button onClick={clear} className="btn btn-danger"> Eliminar Carrito </button>
+                            <button onClick={clear} className="btn btn-danger"> borrar todo </button>
                             <Link to='/checkout' className="btn btn-primary ms-2">Checkout</Link>
                         </div>} 
                 </div>

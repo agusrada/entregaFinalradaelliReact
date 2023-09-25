@@ -75,7 +75,7 @@ const Checkout = () => {
             <BtnBack to="/cart" />
 
             <form onSubmit={createOrder}>
-                <h2 className="text-center mt-3">Ingresa tus datos para completar la compra 🛍</h2>
+                <h2 className="text-center mt-3">ingrese sus datos por favor</h2>
                 <div className="container p-2">
                     <div className="d-flex justify-content-center">
                         <Field label="Nombre:" name="name" type="text" placeholder="John" onChange={onChange} />
@@ -111,7 +111,7 @@ const Checkout = () => {
             </ul>
             
 
-            <h3 className="mx-auto my-3">Total de la Compra: € {total}</h3>
+            <h3 className="mx-auto my-3">Total: $ {total}</h3>
             
         </div>
     );

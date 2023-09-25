@@ -7,13 +7,13 @@
 }
 
 .instagram:hover {
-    color: #C13584;
+    color: #4a0df1;
     transition-duration: 0.5s;
     transition-property: color;
 }
 
 .facebook:hover {
-    color: #2f55a4;
+    color: #094ad6;
     transition-duration: 0.5s;
     transition-property: color;
 }

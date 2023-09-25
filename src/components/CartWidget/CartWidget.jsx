@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { useContext } from "react";
 import CartContext from "../../context/CartContext";
-import Cart from "../../assets/cart.png";
+import Cart from "../../assets/cart.ico";
 import { cartQuantity } from "../../utils";
 
 const CartWidget = () => {
