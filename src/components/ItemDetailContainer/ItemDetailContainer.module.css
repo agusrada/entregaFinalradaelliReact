@@ -1,5 +1,5 @@
 .backgroundColor {
-    background-image: linear-gradient(to right top, #000000, #181818, #282828, #3a3a3a, #4c4c4c), url("../../assets/background.jpg");
+    background-image: linear-gradient(to right top, #000000, #181818, #282828, #3a3a3a, #4c4c4c), url("../../assets/backgroundmain.jpg");
     background-color: rgb(241, 18, 18);
     background-size: cover;
     background-repeat: no-repeat;
